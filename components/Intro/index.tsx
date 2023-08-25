@@ -5,10 +5,18 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsGithub, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
+import { useActiveSectionContext } from "@/context/active-section-context";
+import { useSectionInView } from "@/lib/hooks";
 
 function Intro() {
+  const { ref } = useSectionInView("Home", 0.5);
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   return (
-    <section className="mb-28 m-w-[50rem] text-center sm:mb-0">
+    <section
+      className="mb-28 m-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      id="home"
+      ref={ref}
+    >
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -67,6 +75,10 @@ function Intro() {
       >
         <Link
           href={"#contact"}
+          onClick={() => {
+            setActiveSection("Contact");
+            setTimeOfLastClick(Date.now());
+          }}
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
         >
           Contact Me Here{" "}
