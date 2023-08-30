@@ -1,6 +1,5 @@
 "use server";
 
-import { Resend } from "resend";
 import { render } from "@react-email/render";
 import nodemailer from "nodemailer";
 import Email from "@/components/email";
@@ -35,8 +34,8 @@ const sendEmail = async (formData: FormData) => {
     host: "sandbox.smtp.mailtrap.io",
     port: 2525,
     auth: {
-      user: "52e6e77939e23a",
-      pass: "6e6d96796cc84d",
+      user: process.env.MAIL_USER,
+      pass: process.env.MAIL_PASSWORD,
     },
   });
   const emailHtml = render(<Email url="https://example.com" />);
