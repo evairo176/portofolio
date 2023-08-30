@@ -87,20 +87,20 @@ function Intro() {
         <a
           download
           href="/CV.pdf"
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border borderBlack"
         >
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-x-2 transition" />
         </a>
         <a
-          href=""
-          className="group bg-white text-gray-700 px-4 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
+          href="#"
+          className="group bg-white text-gray-700 px-4 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition cursor-pointer border borderBlack"
         >
           <BsLinkedin className="opacity-60 group-hover:translate-x-1 transition" />
         </a>
         <a
-          href=""
-          className="group bg-white text-gray-700 px-4 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
+          href="#"
+          className="group bg-white text-gray-700 px-4 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition cursor-pointer border borderBlack"
         >
           <BsGithub className="opacity-60 group-hover:translate-x-1 transition" />
         </a>

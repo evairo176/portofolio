@@ -1,4 +1,5 @@
 import About from "./about";
+import Contact from "./contact";
 import Experience from "./experience";
 import Header from "./header";
 import Intro from "./intro";
@@ -16,4 +17,5 @@ export {
   SectionHeading,
   Skills,
   Experience,
+  Contact,
 };

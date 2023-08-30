@@ -1,5 +1,6 @@
 import {
   About,
+  Contact,
   Experience,
   Intro,
   Project,
@@ -16,6 +17,7 @@ export default function Home() {
       <Project />
       <Skills />
       <Experience />
+      <Contact />
     </main>
   );
 }

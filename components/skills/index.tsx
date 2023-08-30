@@ -33,7 +33,7 @@ function Skills() {
         {skillsData?.map((row, key) => {
           return (
             <motion.li
-              className="bg-white border border-black/[0.1] rounded-xl px-5 py-3"
+              className="bg-white border borderBlack rounded-xl px-5 py-3"
               key={key}
               variants={fadeIn}
               initial="initial"
