@@ -65,10 +65,18 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "PWA Tnos Website",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I work as a full-stack developer at this PT. Xtreme Network System startup project for 9 months. Users can log in, register and carry out transactions on body guard ordering services, creating legal documents, online legal consultations using the custom Xendit payment method.",
+    tags: [
+      "React.js",
+      "Laravel",
+      "CSS",
+      "Mysql",
+      "Xendit",
+      "Google Map",
+      "Sendgrid Email",
+    ],
     imageUrl: tnosPwa,
   },
   {

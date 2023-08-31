@@ -79,7 +79,7 @@ function Intro() {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
           }}
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition "
         >
           Contact Me Here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-2 transition" />
@@ -87,20 +87,20 @@ function Intro() {
         <a
           download
           href="/CV.pdf"
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border borderBlack"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border borderBlack dark:bg-white/10"
         >
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-x-2 transition" />
         </a>
         <a
           href="#"
-          className="group bg-white text-gray-700 px-4 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition cursor-pointer border borderBlack"
+          className="group bg-white text-gray-700 px-4 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition cursor-pointer border borderBlack dark:bg-white/10  dark:text-white/60"
         >
           <BsLinkedin className="opacity-60 group-hover:translate-x-1 transition" />
         </a>
         <a
           href="#"
-          className="group bg-white text-gray-700 px-4 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition cursor-pointer border borderBlack"
+          className="group bg-white text-gray-700 px-4 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition cursor-pointer border borderBlack dark:bg-white/10 dark:text-white/60"
         >
           <BsGithub className="opacity-60 group-hover:translate-x-1 transition" />
         </a>

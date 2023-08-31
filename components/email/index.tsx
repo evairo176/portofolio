@@ -1,13 +1,44 @@
 import * as React from "react";
-import { Html } from "@react-email/html";
-import { Button } from "@react-email/button";
+import {
+  Html,
+  Body,
+  Head,
+  Heading,
+  Hr,
+  Container,
+  Preview,
+  Section,
+  Text,
+} from "@react-email/components";
+import { Tailwind } from "@react-email/tailwind";
 
-function Email(props: any) {
-  const { url } = props;
-
+function Email({
+  message,
+  senderEmail,
+}: {
+  message: string;
+  senderEmail: string;
+}) {
   return (
     <Html lang="en">
-      <Button href={url}>Click me</Button>
+      <Head />
+      <Preview>New message from your portofolio site</Preview>
+      <Tailwind>
+        <Body className="bg-gray-100 text-black">
+          <Container>
+            <Section className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
+              <Heading className="leading-tight">
+                You received the following message from the contact
+              </Heading>
+              <Text>{message}</Text>
+              <Hr />
+              <Text className="text-neutral-600">
+                The sender's email is: {senderEmail}
+              </Text>
+            </Section>
+          </Container>
+        </Body>
+      </Tailwind>
     </Html>
   );
 }
