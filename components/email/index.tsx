@@ -33,7 +33,7 @@ function Email({
               <Text>{message}</Text>
               <Hr />
               <Text className="text-neutral-600">
-                The sender's email is: {senderEmail}
+                The senders email is: {senderEmail}
               </Text>
             </Section>
           </Container>

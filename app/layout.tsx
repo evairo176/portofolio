@@ -11,6 +11,29 @@ export const metadata = {
   title: "Dicki Prasetya | Personal Portofolio",
   description:
     "Dicki Prasetya is a full-stack developer with 1 years of experience.",
+  openGraph: {
+    title: "Dicki Prasetya | Personal Portofolio",
+    description:
+      "Dicki Prasetya is a full-stack developer with 1 years of experience.",
+    url: `${process.env.NEXT_PUBLIC_SITE_URL}`,
+    siteName: "Dicki Prasetya | Personal Portofolio",
+    images: [
+      {
+        url: "https://localhost:3001/opengraph-image.png",
+        width: 1200,
+        height: 628,
+      },
+    ],
+    locale: "id",
+    type: "website",
+  },
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}`,
+    languages: {
+      "en-US": `${process.env.NEXT_PUBLIC_SITE_URL}`,
+      "id-ID": `${process.env.NEXT_PUBLIC_SITE_URL}`,
+    },
+  },
 };
 
 export default function RootLayout({

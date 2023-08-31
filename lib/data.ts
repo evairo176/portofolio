@@ -38,28 +38,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Study di ploma 3",
+    location: "Politeknik Negeri Indramayu, Jawa Barat",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 3 years of studying. I immediately found a job as a full-stack developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2019 - 2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Full-stack Web Developer",
+    location: "PT. Xtreme Network Sistem, Jakarta",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a full-stack web developer for 9 month in 1 job. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 - 2023",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "KPN Plantation, Jakarta",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a full-stack developer working as a full-time. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
@@ -67,7 +67,7 @@ export const projectsData = [
   {
     title: "PWA Tnos Website",
     description:
-      "I work as a full-stack developer at this PT. Xtreme Network System startup project for 9 months. Users can log in, register and carry out transactions on body guard ordering services, creating legal documents, online legal consultations using the custom Xendit payment method.",
+      "I work as a full-stack developer at this startup project for 9 months. Users can log in, register and carry out transactions on body guard ordering services, creating legal documents, online legal consultations using the custom Xendit payment method.",
     tags: [
       "React.js",
       "Laravel",
@@ -80,17 +80,17 @@ export const projectsData = [
     imageUrl: tnosPwa,
   },
   {
-    title: "rmtDev",
+    title: "Blog",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "I created this blog website to share some of the ways I do in the world of programming or anything else.",
+    tags: ["TypeScript", "Next.js", "Tailwind", "Directus js", "Postgree"],
     imageUrl: myBlog,
   },
   {
-    title: "Word Analytics",
+    title: "Payment Costum Xendit",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Make payments easier with Xendit special payments such as Credit Cards, Bank Transfers, E-Wallets & QR Codes",
+    tags: ["React.js", "Laravel", "CSS", "Mysql", "Xendit"],
     imageUrl: paymentXenditCustom,
   },
 ] as const;
@@ -108,11 +108,8 @@ export const skillsData = [
   "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
   "Python",
-  "Django",
   "Framer Motion",
 ] as const;

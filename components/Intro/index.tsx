@@ -28,9 +28,7 @@ function Intro() {
             }}
           >
             <Image
-              src={
-                "https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2942&q=80"
-              }
+              src="/profile.jpg"
               alt="Dicki Prasetya"
               width={192}
               height={192}
@@ -59,7 +57,7 @@ function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Dicki Prasetya.</span> I'm a{" "}
+        <span className="font-bold">Hello, Im Dicki Prasetya.</span> Im a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">1 years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
@@ -93,13 +91,15 @@ function Intro() {
           <HiDownload className="opacity-60 group-hover:translate-x-2 transition" />
         </a>
         <a
-          href="#"
+          target="_blank"
+          href="https://www.linkedin.com/in/dicki-prasetya-3a7587195"
           className="group bg-white text-gray-700 px-4 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition cursor-pointer border borderBlack dark:bg-white/10  dark:text-white/60"
         >
           <BsLinkedin className="opacity-60 group-hover:translate-x-1 transition" />
         </a>
         <a
-          href="#"
+          target="_blank"
+          href="https://github.com/evairo176"
           className="group bg-white text-gray-700 px-4 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition cursor-pointer border borderBlack dark:bg-white/10 dark:text-white/60"
         >
           <BsGithub className="opacity-60 group-hover:translate-x-1 transition" />
