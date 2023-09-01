@@ -19,7 +19,7 @@ export const metadata = {
     siteName: "Dicki Prasetya | Personal Portofolio",
     images: [
       {
-        url: "https://localhost:3001/opengraph-image.png",
+        url: `${process.env.NEXT_PUBLIC_SITE_URL}/opengraph-image.png`,
         width: 1200,
         height: 628,
       },
