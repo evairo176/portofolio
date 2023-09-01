@@ -8,6 +8,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import paymentXenditCustom from "@/public/payment-xendit-custom.png";
 import tnosPwa from "@/public/tnos-pwa.png";
 import myBlog from "@/public/my-blog.png";
+import appstore from "@/public/appstore.jpg";
 
 export const links = [
   {
@@ -65,6 +66,13 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Payment Costum Xendit",
+    description:
+      "Make payments easier with Xendit special payments such as Credit Cards, Bank Transfers, E-Wallets & QR Codes",
+    tags: ["React.js", "Laravel", "CSS", "Mysql", "Xendit"],
+    imageUrl: paymentXenditCustom,
+  },
+  {
     title: "PWA Tnos Website",
     description:
       "I work as a full-stack developer at this startup project for 9 months. Users can log in, register and carry out transactions on body guard ordering services, creating legal documents, online legal consultations using the custom Xendit payment method.",
@@ -87,11 +95,11 @@ export const projectsData = [
     imageUrl: myBlog,
   },
   {
-    title: "Payment Costum Xendit",
+    title: "App Store",
     description:
-      "Make payments easier with Xendit special payments such as Credit Cards, Bank Transfers, E-Wallets & QR Codes",
-    tags: ["React.js", "Laravel", "CSS", "Mysql", "Xendit"],
-    imageUrl: paymentXenditCustom,
+      "Aplikasi pemesanan makanan android dan ios yang mudah dengan pembayaran online midtrans.",
+    tags: ["React Native", "Laravel", "Midtrans"],
+    imageUrl: appstore,
   },
 ] as const;
 
@@ -112,4 +120,6 @@ export const skillsData = [
   "PostgreSQL",
   "Python",
   "Framer Motion",
+  "Midtrans",
+  "Xendit",
 ] as const;
