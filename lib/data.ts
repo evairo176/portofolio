@@ -97,7 +97,7 @@ export const projectsData = [
   {
     title: "App Store",
     description:
-      "Aplikasi pemesanan makanan android dan ios yang mudah dengan pembayaran online midtrans.",
+      "Easy Android and iOS food ordering application with MidTrans online payment.",
     tags: ["React Native", "Laravel", "Midtrans"],
     imageUrl: appstore,
   },
