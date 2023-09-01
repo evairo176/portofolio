@@ -11,6 +11,7 @@ import Skills from "./skills";
 import SubmitBtn from "./submit-btn";
 import ThemeSwitch from "./theme-switch";
 
+// update
 export {
   Header,
   Intro,
