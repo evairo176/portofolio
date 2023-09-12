@@ -72,6 +72,7 @@ export const projectsData = [
       "Make payments easier with Xendit special payments such as Credit Cards, Bank Transfers, E-Wallets & QR Codes",
     tags: ["React.js", "Laravel", "CSS", "Mysql", "Xendit"],
     imageUrl: paymentXenditCustom,
+    link: "https://app.tnosworld.com/",
   },
   {
     title: "PWA Tnos Website",
@@ -87,6 +88,7 @@ export const projectsData = [
       "Sendgrid Email",
     ],
     imageUrl: tnosPwa,
+    link: "https://app.tnosworld.com/",
   },
   {
     title: "Blog",
@@ -94,6 +96,7 @@ export const projectsData = [
       "I created this blog website to share some of the ways I do in the world of programming or anything else.",
     tags: ["TypeScript", "Next.js", "Tailwind", "Directus js", "Postgree"],
     imageUrl: myBlog,
+    link: "https://evairo-blog.vercel.app/",
   },
   {
     title: "App Store",
@@ -101,6 +104,7 @@ export const projectsData = [
       "Easy Android and iOS food ordering application with MidTrans online payment.",
     tags: ["React Native", "Laravel", "Midtrans"],
     imageUrl: appstore,
+    link: "#",
   },
   {
     title: "News",
@@ -108,6 +112,7 @@ export const projectsData = [
       "A leading news portal offering the latest news and in-depth analysis across various fields, including politics, economics, entertainment, and technology.",
     tags: ["Laravel"],
     imageUrl: news,
+    link: "#",
   },
 ] as const;
 
