@@ -9,6 +9,7 @@ import paymentXenditCustom from "@/public/payment-xendit-custom.png";
 import tnosPwa from "@/public/tnos-pwa.png";
 import myBlog from "@/public/my-blog.png";
 import appstore from "@/public/appstore.jpg";
+import news from "@/public/news.jpg";
 
 export const links = [
   {
@@ -100,6 +101,13 @@ export const projectsData = [
       "Easy Android and iOS food ordering application with MidTrans online payment.",
     tags: ["React Native", "Laravel", "Midtrans"],
     imageUrl: appstore,
+  },
+  {
+    title: "News",
+    description:
+      "A leading news portal offering the latest news and in-depth analysis across various fields, including politics, economics, entertainment, and technology.",
+    tags: ["Laravel"],
+    imageUrl: news,
   },
 ] as const;
 
