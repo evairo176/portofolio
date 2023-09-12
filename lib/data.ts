@@ -9,7 +9,7 @@ import paymentXenditCustom from "@/public/payment-xendit-custom.png";
 import tnosPwa from "@/public/tnos-pwa.png";
 import myBlog from "@/public/my-blog.png";
 import appstore from "@/public/appstore.jpg";
-import news from "@/public/news.jpg";
+import news from "@/public/news.png";
 
 export const links = [
   {
