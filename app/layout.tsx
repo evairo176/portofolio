@@ -15,7 +15,7 @@ export const metadata = {
     title: "Dicki Prasetya | Personal Portofolio",
     description:
       "Dicki Prasetya is a full-stack developer with 1 years of experience.",
-    // url: `${process.env.NEXT_PUBLIC_SITE_URL}`,
+    url: `${process.env.NEXT_PUBLIC_SITE_URL}`,
     siteName: "Dicki Prasetya | Personal Portofolio",
     images: [
       {
@@ -27,13 +27,13 @@ export const metadata = {
     locale: "id",
     type: "website",
   },
-  // alternates: {
-  //   canonical: `${process.env.NEXT_PUBLIC_SITE_URL}`,
-  //   languages: {
-  //     "en-US": `${process.env.NEXT_PUBLIC_SITE_URL}`,
-  //     "id-ID": `${process.env.NEXT_PUBLIC_SITE_URL}`,
-  //   },
-  // },
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}`,
+    languages: {
+      "en-US": `${process.env.NEXT_PUBLIC_SITE_URL}`,
+      "id-ID": `${process.env.NEXT_PUBLIC_SITE_URL}`,
+    },
+  },
 };
 
 export default function RootLayout({
