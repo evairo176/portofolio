@@ -15,7 +15,7 @@ export const metadata = {
     title: "Dicki Prasetya | Personal Portofolio",
     description:
       "Dicki Prasetya is a full-stack developer with 1 years of experience.",
-    url: `${process.env.NEXT_PUBLIC_SITE_URL}`,
+    // url: `${process.env.NEXT_PUBLIC_SITE_URL}`,
     siteName: "Dicki Prasetya | Personal Portofolio",
     images: [
       {
